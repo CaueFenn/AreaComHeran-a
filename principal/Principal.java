@@ -14,7 +14,8 @@ public class Principal {
         triangulo.leitura();
         System.out.println("area do triângulo:" + triangulo.getArea());
 
-        Circulo circulo = new Circulo("Branco", 3);
+        Circulo circulo = new Circulo();
+        circulo.leitura();
         System.out.println(circulo.paraString());
         System.out.println("area do círculo:" + circulo.getArea());
 
